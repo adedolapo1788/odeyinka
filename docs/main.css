@@ -88,6 +88,9 @@ header{
   .dropdown-menu li{
     font-size: 17px;
   }
+  .card-body-text{
+    padding:7px;
+  }
 
 
 
