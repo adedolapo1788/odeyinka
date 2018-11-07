@@ -82,14 +82,22 @@ header{
     margin-bottom: 60px;
   }
 
+  .dropdown-menu{
+    padding: 10px;
+  }
+  .dropdown-menu li{
+    font-size: 17px;
+  }
+
 
 
 
   /********************************************************SECTION 1*********************************************************/
   .section-one-text{
     margin-top: 30px;
-    margin-bottom: 65px;
+    margin-bottom: 160px;
     padding-top: 20px;
+
   }
 
 
@@ -218,7 +226,41 @@ header{
      /********************************************footer***************************************/
      footer{
        background-color: #1C2C45;
-    color:#fff; 
+       color:#fff; 
+
+     }
+     .footer-section{
+      margin-top:50px;
+      margin-bottom:20px;
+     }
+     footer h3{
+      color: #d50000;
+     }
+
+     .Programme-sessions{
+      list-style-type: upper-alpha;
+     }
+     .Programme-speakers{
+      list-style-type: none;
+     }
+     footer ul li,.footer-section-3{
+      padding: 3px;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #b0bec5;
+     /* font-weight: 100;*/
+     }
+     .footer-section-3{
+      margin-top: 50px;
+     }
+
+     .section-one{
+       background-image: url("img/calabar.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  /*  margin-top: 0;
+    padding-top: 0;*/
      }
 }
 
