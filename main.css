@@ -213,6 +213,13 @@ header{
      .header-text {
      	color:#85144B;
      }
+
+
+     /********************************************footer***************************************/
+     footer{
+       background-color: #1C2C45;
+    color:#fff; 
+     }
 }
 
 
