@@ -90,8 +90,12 @@ header{
   }
   .card-body-text{
     padding:7px;
+   /* color: #fff;*/
   }
-
+ /* .card-body{
+    background:#1C2C45;
+  }
+*/
 
 
 
