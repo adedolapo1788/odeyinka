@@ -99,11 +99,13 @@ header{
 
 
 
+
+
   /********************************************************SECTION 1*********************************************************/
   
   .section-one-text{
     
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 160px;
     padding-top: 20px;
     color: #fff;
@@ -117,16 +119,14 @@ header{
   .header-section-2{
     font-size: 25px;
     font-weight: 600;
-    margin-top: 15px;
+    margin-top: 50px;
     margin-bottom: 65px;
   }
 
   .panel-title{
     font-size: 20px;
   }
-  .panel-heading{
-    background-color: red;
-  }
+ 
 
   .panel-primary > .panel-heading {
   background:#1C2C45;
@@ -138,7 +138,14 @@ header{
 .Panel-body{
   font-size: 45px;
 }
-
+.panel-footer{
+  color: grey;
+}
+.card-body-text{
+  color:grey;
+  font-weight: 600;
+  line-height: 1.9;
+}
 
 
 
@@ -266,17 +273,12 @@ header{
      }
 
      .section-one{
-       background-image: url("img/ObuduCattleRance101.jpg");
-    background-repeat: no-repeat;
-    /*background-position: right top;*/ /* What it used to be*/
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    /*margin-top: 0;*/
-    margin: 0;
-    height: 600px;
-    /*width: 1200px; Included this line*/
-    padding: 0;
+    background-image: url("img/ObuduCattleRance101.jpg");
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-attachment: fixed;
 
      }
 }
