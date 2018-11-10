@@ -135,8 +135,10 @@ header{
   border-color:#717183;
 }
 
-.Panel-body{
-  font-size: 45px;
+.panel-body{
+  /*font-size: 45px;*/
+  padding: 0;
+  border-width: 0;
 }
 .panel-footer{
   color: grey;
