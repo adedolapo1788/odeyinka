@@ -85,28 +85,28 @@
   <div>
     <h2 class="text-center" style="font-weight: 700; color: #d50000;"> CONTACT US</h2>
   </div>
- <form>
+ <form  method="POST" action="https://formspree.io/acuretlearning@gmail.com">
   <div class="form-group">
-    <label for="exampleFormControlInput1">Email: <a href="mailto:olamidetunechi@gmail.com">info@acuret.org</a></label> 
+    <label for="exampleFormControlInput1">Email: <a href="mailto:acuretlearning@gmail.com">info@acuret.org</a></label> 
   </div>
   <div class="form-group">
     <label for="exampleFormControlTextarea1">SEND MESSAGE</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <div class="form-group">
     <label for="formGroupExampleInput">FULL NAME</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="your fullname">
+    <input type="text" name="fullname" class="form-control" id="formGroupExampleInput" placeholder="your fullname">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">EMAIL ADDRESS</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
    <div class="input-group">
-    <input type="tel" class="form-control telphone">
+    <input type="tel" name="telphone" class="form-control telphone">
     <span class="input-group-addon">Tel</span>
   </div>
-  <button type="submit" class="btn btn-primary" value="send">Submit</button>
+  <button type="submit" class="btn btn-primary" value="Send">Submit</button>
 
   <div>
     <p>HOW CAN WE HELP YOU?</p>
