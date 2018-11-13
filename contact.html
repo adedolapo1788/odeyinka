@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -16,6 +17,12 @@
 	 <link rel="stylesheet" href="CSS/swiper.min.css">
 	 <link rel="stylesheet" href="CSS/animate.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.6/css/intlTelInput.css'>
+
+      <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
@@ -72,25 +79,39 @@
 
 	<!-------------------------------------------SECTION 0NE  -------------------------------------------->
 
-<div class="container" style="padding: 20px; margin-top: 20px;">
-	<p>Accommodation can be booked through the registration portal. You will need to register in order to book. If you have already registered you can use your login details to add accommodation to your booking.
-Please click here to book.</p>
 
-<p>The rates below have been contracted by the congress organizers. 
-Alternative accommodation can be booked independently. 
-Please check the distance to the venue, when booking.</p> 
+<div class="container">
 
-<h3></h3>
-<ul class="hello">
-<li>Hotel Name</li>
-<li>Single Occupancy - N</li>
-<li>Double Occupancy - N</li>
-<li>Distance from Venue - 0.5 miles (10min walk)</li>
-<li>Please click here to book.</li>
-<li>Some basic Info about the Hotel: (one paragraph, max)</li> 
-<li>A photo, where available</li>
+  <div>
+    <h2 class="text-center" style="font-weight: 700; color: #d50000;"> CONTACT US</h2>
+  </div>
+ <form  method="POST" action="https://formspree.io/acuretlearning@gmail.com">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email: <a href="mailto:acuretlearning@gmail.com">info@acuret.org</a></label> 
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">SEND MESSAGE</label>
+    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">FULL NAME</label>
+    <input type="text" name="fullname" class="form-control" id="formGroupExampleInput" placeholder="your fullname">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">EMAIL ADDRESS</label>
+    <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+   <div class="input-group">
+    <input type="tel" name="telphone" class="form-control telphone">
+    <span class="input-group-addon">Tel</span>
+  </div>
+  <button type="submit" class="btn btn-primary" value="Send">Submit</button>
 
-</ul>
+  <div>
+    <p>HOW CAN WE HELP YOU?</p>
+  </div>
+</form>
 
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -103,7 +124,7 @@ Please check the distance to the venue, when booking.</p>
 <footer class="container-fluid">
   <div class="container">
     <div class="row container footer-section">
-      <div class="col-md-4 col-sm-4">
+      <div class="col-md-6 col-sm-6">
         <h3 class="text-center">Programme and Sessions</h3>
         <div>
           <ul class="Programme-sessions">
@@ -120,7 +141,7 @@ Please check the distance to the venue, when booking.</p>
         </div> 
         <p style="color: #b0bec5;"><em>Acquire the knowledge and skills to become a Certified AEC/IACUC member for your Institutions</em></p>
       </div>
-      <div class="col-md-4 col-sm-4">
+     <!--  <div class="col-md-4 col-sm-4">
         <div>
           <h3 class="text-center">Speakers</h3>
           <div>
@@ -135,8 +156,8 @@ Please check the distance to the venue, when booking.</p>
           </div>
         </div>
 
-      </div>
-      <div class="col-md-4 col-sm-4">
+      </div> -->
+      <div class="col-md-6 col-sm-6">
         <div  class="footer-section-3">
           <a href="#">Email: info@acuret.org</a>
           <p>Tel: +234-809 444 4510</p>
@@ -172,8 +193,11 @@ Please check the distance to the venue, when booking.</p>
 
 <!------------------------------------------------------------------ending footer ----------------------------------------- -->
 
-<script src="JS/swiper.min.js"></script>
-  <script src="JS/wow.min.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.7/js/intlTelInput.js'></script>
+<script  src="JS/contact.js"></script>
+
+
   <script type="text/javascript" src="JS/main.js"></script>
  <script type="text/javascript">
   $('ul.nav li.dropdown').hover(function() {

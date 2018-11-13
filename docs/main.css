@@ -39,7 +39,7 @@ header{
     background-color:#282C34;
     color: #fff;
     padding:1% 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
     border:0;
   }
 .current:hover{
@@ -112,12 +112,20 @@ header{
     text-shadow: 1px 2px 6px #1a237e;
 
   }
+  /*included this styling*/
+  .section-one-text-strong{
+    font-weight: 700;
+    font-size: 35px;
+    color: #61DAFB;
+    /*color: #337ab7;*/
+    /*#61DAFB*/
+  }
 
 
 
   /**********************************************************SECTION 2 ************************************************************/
   .header-section-2{
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 600;
     margin-top: 50px;
     margin-bottom: 65px;
@@ -135,8 +143,10 @@ header{
   border-color:#717183;
 }
 
-.Panel-body{
-  font-size: 45px;
+.panel-body{
+  /*font-size: 45px;*/
+  padding: 0;
+  border-width: 0;
 }
 .panel-footer{
   color: grey;
