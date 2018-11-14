@@ -120,6 +120,14 @@ header{
     /*color: #337ab7;*/
     /*#61DAFB*/
   }
+  .section-one-text-link{
+    color: #61DAFB;
+  }
+  .section-one-text-link:hover{
+    text-decoration: none;
+    color: grey;
+  }
+
 
 
 
