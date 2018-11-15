@@ -72,25 +72,37 @@
 
 
 
-<div class="container text-center form-content" style="margin-top: 35px;">
-  <h3 style="margin-top: 20px;">INSTITUTIONAL DELEGATION</h3>
-  <h3>NON-DELEGATION</h3>
+<div align="center" style="margin-bottom: 200px;">
+    <h3 style="margin-top: 20px;">INSTITUTIONAL DELEGATION</h3>
+    <h3>NON-DELEGATION</h3>
 
     <h3>INSTITUTIONAL DELEGATION REGISTRATION</h3>
-  <h4>SELECT</h4>
-  <h4>LEAD DELEGATION</h4>
-  <h4>DELEGATION 2</h4>
-  <h4>DELEGATION 3</h4>
+    <div class="container">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><h4>SELECT</h4>
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu" align="center">
+            <li class="dropdown-header"> Select Delegation</li>
+            <li><a href="delegationlead.html">LEAD DELEGATION</a></li>
+            <li> <a type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">
+            DELEGATION 2</a></li>
+            <li><a type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">DELEGATION 3</a></li>
+         </ul>
+       </div>
+  </div>
+</div>
+<div class=" collapse container text-center form-content" id="collapseForm"style="margin-top: 35px;">
+  
 
-  <form class="needs-validation" novalidate="" style="margin-top: 50px; padding: 20px;" method="POST" action="https://formspree.io/acuretlearning@gmail.com">
+  <form class="needs-validation" novalidate="" style="margin-top: 50px; padding: 20px;">
     <label class="radio-inline">
       <input type="radio" name="optradio" checked>MR
     </label>
     <label class="radio-inline">
-      <input type="radio" name="optradio" >MRS
+      <input type="radio" name="optradio">MRS
     </label>
     <label class="radio-inline">
-      <input type="radio" name="optradio">DR
+      <input type="radio" name="optradio" checked>DR
     </label>
     <label class="radio-inline">
       <input type="radio" name="optradio">PROF
@@ -98,74 +110,74 @@
             <div class="row" style="margin-top: 15px;">
               <div class="mb-3">
                 <label for="firstName">FAMILY NAME</label>
-                <input type="text" name="FAMILY NAME" class="form-control" id="family name" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="family name" placeholder="" value="" required="">
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">FIRST NAME</label>
-                <input type="text" name="FIRST NAME" class="form-control" id="firstName" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
               </div>
               <div class="col-md-6 mb-3">
                 <label for="lastName">INITIALS</label>
-                <input type="text" name="INITIALS" class="form-control" id="initials" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="initials" placeholder="" value="" required="">
               </div>
             </div>
               <div class="mb-3">
               <div class="row">
                 <label for="firstName">POSITION </label>
-                <input type="text" name="POSITION" class="form-control" id="Position" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="Position" placeholder="" value="" required="">
               </div>
             </div>
               <div class="mb-3">
               <div class="row">
                 <label for="firstName">DEPARTMENT/UNIT </label>
-                <input type="text" name="DEPARTMENT" class="form-control" id="Department" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="Department" placeholder="" value="" required="">
               </div>
             </div>
               <div class="mb-3">
               <div class="row">
                 <label for="firstName">Address1 </label>
-                <input type="text" name="Address1" class="form-control" id="address" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="address" placeholder="" value="" required="">
               </div>
             </div>
             <div class="mb-3">
               <div class="row">
                 <label for="firstName">Address2 </label>
-                <input type="text" name="Address2" class="form-control" id="address" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="address" placeholder="" value="" required="">
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-4 mb-3">
                 <label for="firstName">ZIP CODE</label>
-                <input type="text" name="ZIP" class="form-control" id="zip code" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="zip code" placeholder="" value="" required="">
               </div>
               <div class="col-md-4 mb-3">
                 <label for="lastName">TOWN</label>
-                <input type="text" name="TOWN" class="form-control" id="town" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="town" placeholder="" value="" required="">
               </div>
               <div class="col-md-4 mb-3">
                 <label for="lastName">COUNTRY</label>
-                <input type="text" name="COUNTRY" class="form-control" id="country" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="country" placeholder="" value="" required="">
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">Phone</label>
-                <input type="text" name="PHONE" class="form-control" id="firstName" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
               </div>
               <div class="col-md-6 mb-3">
                 <label for="lastName">Fax</label>
-                <input type="text" name="Fax" class="form-control" id="lastName" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
               </div>
             </div>
 
             <div class="row">
               <div class=" mb-3">
                 <label for="email">Email</label>
-                <input type="email" name="_replyto" class="form-control" id="email" placeholder="you@example.com">
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
                   <div class="invalid-feedback">
                     Please enter a valid email address.
                   </div>
@@ -175,24 +187,20 @@
              <div class="row">
               <div class=" mb-3">
                 <label for="email">Tel</label>
-                <input type="email" name="Tel" class="form-control" id="tel" placeholder="">
+                <input type="email" class="form-control" id="tel" placeholder="">
               </div>
              </div>
-             <div class="form-group">
-                 <p>MEMBER OF IACUC/AEC</p>
-                 <label class="radio-inline">
-                      <input type="radio" name="optradio" checked>YES
-                 </label>
-                  <label class="radio-inline">
-                      <input type="radio" name="optradio">NO
-                 </label>
-                   <br>
-             </div>
-             <button type="submit" class="btn btn-primary" value="Send" style="margin-top: 5px;">Submit</button>
          </form>
 </div>
 
 <div class="container">
+    <p>MEMBER OF IACUC/AEC</p>
+    <label class="radio-inline">
+        <input type="radio" name="optradio" checked>YES
+  </label>
+  <label class="radio-inline">
+       <input type="radio" name="optradio">NO
+    </label>
 
 
     <div style="padding: 20px;" class="registration-header-text">
@@ -205,400 +213,6 @@
  <!-------------------------------------------------------------LEAD DELEGATION 2 --------------------------------------------------------------->
 
 
- <div class="container text-center form-content">
-  <h3 style="margin-top: 20px; color:#d50000; font-weight: 700;">INSTITUTIONAL DELEGATION LEAD REGISTRATION</h3>
-    <p>UNIVERSITY/INSTITUTION </p>
-  <p>INSTITUTIONAL AUTHORITY</p>
-
-  <form class="needs-validation" novalidate="" style="margin-top: 50px; padding: 20px;" method="POST" action="https://formspree.io/acuretlearning@gmail.com">
-    <div class="form-group">
-    <label for="formGroupExampleInput">NAME</label>
-    <input type="text" name="NAME" class="form-control" id="formGroupExampleInput" placeholder="your name">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-
-  <!-- ---------------------------------------------------------------- -->
-  <div class="form-row">
-    <div class="col-7">
-      <p>DOES YOUR INSTITUTION HAVE A PROPERLY CONSTITUTED IACUC/AEC? </p>
-    </div>
-     <label class="radio-inline">
-      <input  type="radio" name="optradio" name="optradio yes if you have a PROPERLY constituted IACUC/AEC" checked>YES
-    </label>
-    <label class="radio-inline">
-      <input type="radio" name="optradio" name="optradio no if you don't have a PROPERLY constituted IACUC/AEC">NO
-    </label>
-    <div class="form-group">
-    <label for="formGroupExampleInput">IF YES, PLEASE NAME THE CHAIRMAN OF THE COMMITTEE</label>
-    <input type="text" name="name of chariman of the committee" class="form-control" id="formGroupExampleInput" placeholder="Chairman name">
-  </div>
-   <div class="col-7">
-      <p>WOULD THE CHAIRMAN LEAD THE DELEGATION FROM YOUR INSTITUTION TO THIS WORKSHOP? </p>
-    </div>
-     <label class="radio-inline">
-      <input type="radio" name="optradio" name="optradio yes if the chairman Lead Delegation is from your institution" checked>YES
-    </label>
-    <label class="radio-inline">
-      <input type="radio" name="optradio" name="optradio no if the chairman Lead Delegation is from your institution">NO
-    </label>
-  </div>
-
-  <!-- --------------------------------------------------------------------------------------- -->
-  <div class="col-7">
-    <p>Please name the delegation lead for your institution to the workshop</p>
-  </div>
-  <div class="col-7">
-    <label class="radio-inline">
-      <input type="radio" name="optradio" checked>MR
-    </label>
-    <label class="radio-inline">
-      <input type="radio" name="optradio">MRS
-    </label>
-    <label class="radio-inline">
-      <input type="radio" name="optradio">DR
-    </label>
-    <label class="radio-inline">
-      <input type="radio" name="optradio">PROF
-    </label>
-  </div>
-            <div class="row" style="margin-top: 15px;">
-              <div class="mb-3">
-                <label for="firstName">FAMILY NAME</label>
-                <input type="text" name="family name" class="form-control" id="family name" placeholder="" value="" required="">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="firstName">FIRST NAME</label>
-                <input type="text" name="firstName" class="form-control" id="firstName" placeholder="" value="" required="">
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="lastName">INITIALS</label>
-                <input type="text" name="initials" class="form-control" id="initials" placeholder="" value="" required="">
-              </div>
-            </div>
-              <div class="mb-3">
-              <div class="row">
-                <label for="firstName">POSITION </label>
-                <input type="text" name="position" class="form-control" id="Position" placeholder="" value="" required="">
-              </div>
-            </div>
-              <div class="mb-3">
-              <div class="row">
-                <label for="firstName">DEPARTMENT/UNIT </label>
-                <input type="text" name="Department" class="form-control" id="Department" placeholder="" value="" required="">
-              </div>
-            </div>
-              <div class="mb-3">
-              <div class="row">
-                <label for="firstName">Address1 </label>
-                <input type="text" name="Address1" class="form-control" id="address" placeholder="" value="" required="">
-              </div>
-            </div>
-            <div class="mb-3">
-              <div class="row">
-                <label for="firstName">Address2 </label>
-                <input type="text" name="Address2" class="form-control" id="address" placeholder="" value="" required="">
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4 mb-3">
-                <label for="firstName">ZIP CODE</label>
-                <input type="text" name="zip" class="form-control" id="zip code" placeholder="" value="" required="">
-              </div>
-              <div class="col-md-4 mb-3">
-                <label for="lastName">TOWN</label>
-                <input type="text" name="TOWN" class="form-control" id="town" placeholder="" value="" required="">
-              </div>
-              <div class="col-md-4 mb-3">
-                <label for="lastName">COUNTRY</label>
-                <input type="text" name="COUNTRY" class="form-control" id="country" placeholder="" value="" required="">
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="firstName">Phone</label>
-                <input type="text" name="Phone" class="form-control" id="firstName" placeholder="" value="" required="">
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="lastName">Fax</label>
-                <input type="text" name="Fax" class="form-control" id="lastName" placeholder="" value="" required="">
-              </div>
-            </div>
-
-            <div class="row">
-              <div class=" mb-3">
-                <label for="email">Email</label>
-                <input type="email" name="_replyto" class="form-control" id="email" placeholder="you@example.com">
-                  <div class="invalid-feedback">
-                    Please enter a valid email address.
-                  </div>
-              </div>
-             </div>
-
-             <div class="row">
-              <div class=" mb-3">
-                <label for="email">Tel</label>
-                <input type="email" name="Tel" class="form-control" id="tel" placeholder="">
-              </div>
-             </div>
-              <p>MEMBER OF IACUC/AEC</p>
-    <label class="radio-inline">
-        <input type="radio" name="optradio" name="member of IACUC/AEC yes" checked>YES
-  </label>
-  <label class="radio-inline">
-       <input type="radio" name="optradio" name="member of IACUC/AEC no">NO
-    </label>
-    <br>
-             <button type="submit" class="btn btn-primary" value="Send" style="margin-top: 5px;">Submit</button>
-         </form>
-</div>
-
-<div class="container">
-
-
-    <div style="padding: 20px;" class="registration-header-text">
-      <p>Your appointed lead of Institutional Delegation will be contacted through the email above with a username and password to create a registration account and then register himself and other members of your institutional delegation up to a maximum of three (3) persons. Individuals above the allowed delegation should register as Non-delegation participants. Delegate registration is incomplete without registration fee payment.</p>
-    </div>
- </div>
-
- <!-------------------------------------------------------------LEAD DELEGATION closing --------------------------------------------------------------->
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-<!-- --------------------------------------FOOTER -------------------------------------------------- -->
-
-<footer class="container-fluid">
-  <div class="container">
-    <div class="row container footer-section">
-      <div class="col-md-6 col-sm-6">
-        <h3 class="text-center">Programme and Sessions</h3>
-        <div>
-          <ul class="Programme-sessions">
-            <li>Introduction: Ethics and the IACUC</li>
-            <li>Creating a Proactive and Engaged IACUC</li>
-            <li>Responsible Officials and animal welfare</li>
-            <li>Facility management and Institutional Accreditation: Process and project</li>
-            <li>Training, Training, and more Training in animal welfare</li>
-            <li>Hazards in working with laboratory animals</li>
-            <li>The Protocol review process</li>
-            <li>Case Studies on Protocol Review and Site Visits/Inspections.</li>
-            <li>Non-compliance, reporting and management</li>
-          </ul>
-        </div> 
-        
-      </div>
-      <!-- <div class="col-md-4 col-sm-4">
-        <div>
-          <h3 class="text-center">Speakers</h3>
-          <div>
-            <ul class="Programme-speakers">
-              <li>Prof. Caled Kudi, DVM, PhD. Ahmadu Bello University, Zaria, Nigeria</li>
-              <li>Prof Addo Phyllis, DVM, PhD. University of Legon, Accra, Ghana</li>
-              <li>Prof. Francis A. Fakoya, MBChB, PhD. ACURET.ORG, Newcastle upon Tyne, UK</li>
-              <li>Prof. IB Cadmus, PhD. University of Ibadan, Ibadan, Nigeria</li>
-              <li>Dr. Abdussamad M. Abdussamad, DVM, PhD. Bayero University, Kano, Nigeria </li>
-              <li>Prof. Dr. Brigitte Vollmar, PhD., DFG, Bonn, Germany</li>
-            </ul>
-          </div>
-        </div>
-
-      </div> -->
-      <div class="col-md-6 col-sm-6">
-        <div  class="footer-section-3">
-          <p>Emails: <a href="#">info@acuret.org</a></p>
-          <p><a href="#">acuretlearning@gmail.com</a></p>
-          <p><a href="#">acuret.org@gmail.org</a></p>
-          <p>Tel: +234-809 444 4510</p>
-          <p>SEND MESSAGE</p>
-          <p>FULL NAMES</p>
-          <p>EMAIL ADDRESS</p>
-          <p>PHONE # (INCLUDING YOUR COUNTRY CODE)</p>
-        </div>
-
-      </div>
-    </div>
-    <div class="text-center" style="font-size: 15px; margin-bottom: 5px; color: #b0bec5;"><p><span>Copyright &copy; 2018. All rights reserved.</span></p></div>
-
-  </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!------------------------------------------------------------------ending footer ----------------------------------------- -->
-
-
-
-
-  <script src="JS/swiper.min.js"></script>
-  <script src="JS/wow.min.js"></script>
-  <script type="text/javascript" src="JS/main.js"></script>
- <script type="text/javascript">
-  $('ul.nav li.dropdown').hover(function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-}, function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-});
-
-
-
-  // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
- </script>
-
-
-
-
-
-
-
-
-
-
-
-<!-- ------------------------------------------------STYLING---------------------------------------------------------- -->
-<style type="text/css">
-header{
-  background-color: #fff;
-}
-  body{
-        background-color: #EBF5FF;
-      }
-	table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-   /* width: 80%;*/
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-
-
-form{
-	width: 80%;
-}
-.form-content{
-        background-color: #FCFEFF;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      }
-
-
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color:#282C34; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 10px; /* Some padding */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-    background-color:#20232A; /* Add a dark-grey background on hover */
-}
-.registration-header-text{
-  color:#B22222;
-}
-
-.registration-header-sub-text{
-  font-size: 20px;
-}
-
-.generic{
-  background-color: #ffc400;
-  padding:2px;
-}
-p{
-  font-size: 18px;
-}
-
-.generic-space{
-  margin-bottom:30px;
-}
-
-ul li{
-  font-size: 16px;
-  list-style-type: none;
-}
-
-.flashing-effect{
-  font-size: 16px;
-  border-color: transparent;
-  font-family: arial;
-  padding: 12px 15px;
-  color: #fff;
-  border:0;
-  border-radius: 5px;
-  animation-name: flashing;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-@keyframes flashing{
-  0%{
-    opacity: 1.0;
-  }
-  25%{
-    opacity: 0.6;
-  }
-  50%{
-    opacity: 0.3;
-  }
-  75%{
-    opacity: 0.6;
-  }
-  100%{
-    opacity: 1.0;
-  }
-}
-</style>
+ 
 	</body>
 </html>
