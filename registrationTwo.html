@@ -72,7 +72,7 @@
 
 
 
-<div align="center" style="margin-bottom: 200px;">
+<div align="center" style="margin-bottom: 70px;">
     <h3 style="margin-top: 20px;">INSTITUTIONAL DELEGATION</h3>
     <h3>NON-DELEGATION</h3>
 
@@ -94,7 +94,7 @@
 <div class=" collapse container text-center form-content" id="collapseForm"style="margin-top: 35px;">
   
 
-  <form class="needs-validation" novalidate="" style="margin-top: 50px; padding: 20px;">
+   <div class="col-7">
     <label class="radio-inline">
       <input type="radio" name="optradio" checked>MR
     </label>
@@ -107,6 +107,7 @@
     <label class="radio-inline">
       <input type="radio" name="optradio">PROF
     </label>
+  </div>
             <div class="row" style="margin-top: 15px;">
               <div class="mb-3">
                 <label for="firstName">FAMILY NAME</label>
@@ -190,20 +191,22 @@
                 <input type="email" class="form-control" id="tel" placeholder="">
               </div>
              </div>
+
+             <p>MEMBER OF IACUC/AEC</p>
+    <label class="radio-inline">
+        <input type="radio" name="MEMBER OF IACUC/AEC" checked>YES
+  </label>
+  <label class="radio-inline">
+       <input type="radio" name="MEMBER OF IACUC/AEC">NO
+    </label>
+    <br>
+    <button type="submit" class="btn btn-primary" value="Send" style="margin-top: 15px;">Submit</button>
          </form>
 </div>
 
+
 <div class="container">
-    <p>MEMBER OF IACUC/AEC</p>
-    <label class="radio-inline">
-        <input type="radio" name="optradio" checked>YES
-  </label>
-  <label class="radio-inline">
-       <input type="radio" name="optradio">NO
-    </label>
-
-
-    <div style="padding: 20px;" class="registration-header-text">
+    <div class="registration-header-text">
       <p>Begin with entry of the Lead Delegation and make registration fee payment before you continue. Then continue to register other members of your institutional delegation up to a maximum of three (3) persons. You may return to make changes to your delegation membership until registration closes after which you cannot make changes neither can you make any substitution. Individuals above the allowed delegation should register as Non-delegation participants. Delegate registration is incomplete without registration fee payment.</p>
     </div>
  </div>
@@ -215,4 +218,10 @@
 
  
 	</body>
+  <style type="text/css">
+    .registration-header-text{
+     color:#B22222;
+     margin-top: 0;
+}
+  </style>
 </html>
