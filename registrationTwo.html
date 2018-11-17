@@ -85,9 +85,9 @@
             <li class="dropdown-header"> Select Delegation</li>
             <li><a id="lead_delegation"type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">
             LEAD DELEGATION</a></li>
-            <li> <a id="delegation_one" type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">
+            <li> <a id="delegation_two" type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">
             DELEGATION 2</a></li>
-            <li><a id="delegation_two" type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">DELEGATION 3</a></li>
+            <li><a id="delegation_three" type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">DELEGATION 3</a></li>
          </ul>
        </div>
   </div>
@@ -221,22 +221,22 @@
 
  <script type="text/javascript">
    var lead = document.getElementById('lead_delegation');
-   var one = document.getElementById('delegation_one');
    var two = document.getElementById('delegation_two');
+   var three = document.getElementById('delegation_three');
    var non = document.getElementById('non_delegation');
    let showSelection = document.getElementById('show_delegation');
    let showForm = document.getElementById('show_form');
    lead.onclick = function(){
-    showSelecion.innerHTML = "LEAD DELEGATION";
+    showSelection.innerHTML = "LEAD DELEGATION";
     showForm.style.display = "block";
 
    }
-    one.onclick = function(){
+    two.onclick = function(){
     showSelection.innerHTML = "DELEGATION TWO";
      showForm.style.display = "block";
 
    }
-    two.onclick = function(){
+    three.onclick = function(){
     showSelection.innerHTML = "DELEGATION THREE";
      showForm.style.display = "block";
 
