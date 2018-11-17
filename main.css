@@ -158,7 +158,7 @@ header{
 }
 .panel-primary:hover{
   /*background:#717183;*/
-  /*opacity: 0.5;*/
+  
 }
 
 
@@ -167,9 +167,16 @@ header{
   padding: 0;
   border-width: 0;
 }
+.panel-body img:hover{
+  opacity: 0.5;
+} 
 .panel-footer{
   color: grey;
 }
+.panel-footer p:hover{
+  color: blue;
+}
+
 .card-body-text{
   color:grey;
   font-weight: 600;
