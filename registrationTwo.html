@@ -73,26 +73,29 @@
 
 
 <div align="center" style="margin-bottom: 70px;">
-    <h3 style="margin-top: 20px;">INSTITUTIONAL DELEGATION</h3>
-    <h3>NON-DELEGATION</h3>
+    <h3 style="margin-top: 20px;"></h3>
+    <a id="non_delegation" type="button"data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample" ><h3>NON-DELEGATION</h3></a>
 
-    <h3>INSTITUTIONAL DELEGATION REGISTRATION</h3>
+
     <div class="container">
         <div class="dropdown" align="center">
-          <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><h4>SELECT</h4>
+          <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><h4>INSTITUTIONAL DELEGATION</h4>
           <span class="caret"></span></button>
           <ul class="dropdown-menu" align="center">
             <li class="dropdown-header"> Select Delegation</li>
-            <li><a href="delegationlead.html">LEAD DELEGATION</a></li>
-            <li> <a type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">
+            <li><a id="lead_delegation"type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">
+            LEAD DELEGATION</a></li>
+            <li> <a id="delegation_one" type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">
             DELEGATION 2</a></li>
-            <li><a type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">DELEGATION 3</a></li>
+            <li><a id="delegation_two" type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseExample">DELEGATION 3</a></li>
          </ul>
        </div>
   </div>
 </div>
-<div class=" collapse container text-center form-content" id="collapseForm"style="margin-top: 35px;">
+ <!-- -------------Form Begins Here--------------------------->
+<div id= "show_form" class=  "collapse container text-center form-content" id="collapseForm"style="margin-top: 35px;">
   
+  <p id="show_delegation" style="color: #d50000; font-size: 25px; margin-bottom: 10px;" align="center"><em></em></p>
 
    <div class="col-7">
     <label class="radio-inline">
@@ -216,7 +219,34 @@
  <!-------------------------------------------------------------LEAD DELEGATION 2 --------------------------------------------------------------->
 
 
- 
+ <script type="text/javascript">
+   var lead = document.getElementById('lead_delegation');
+   var one = document.getElementById('delegation_one');
+   var two = document.getElementById('delegation_two');
+   var non = document.getElementById('non_delegation');
+   let showSelection = document.getElementById('show_delegation');
+   let showForm = document.getElementById('show_form');
+   lead.onclick = function(){
+    showSelecion.innerHTML = "LEAD DELEGATION";
+    showForm.style.display = "block";
+
+   }
+    one.onclick = function(){
+    showSelection.innerHTML = "DELEGATION TWO";
+     showForm.style.display = "block";
+
+   }
+    two.onclick = function(){
+    showSelection.innerHTML = "DELEGATION THREE";
+     showForm.style.display = "block";
+
+   }
+   non.onclick = function(){
+    showSelection.innerHTML = "NON-DELEGATION"
+    showForm.style.display = "block"
+   }
+
+ </script>
 	</body>
   <style type="text/css">
     .registration-header-text{
