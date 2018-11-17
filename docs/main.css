@@ -103,8 +103,8 @@ header{
 
   /********************************************************SECTION 1*********************************************************/
   
-  .section-one-text{
-    
+  .section-one-title{
+    font-size: 25px;
     margin-top: 100px;
     margin-bottom: 160px;
     padding-top: 20px;
@@ -116,16 +116,22 @@ header{
   .section-one-text-strong{
     font-weight: 700;
     font-size: 35px;
-    color: #61DAFB;
+    color: #d50000;
+    /*font-style: helvetica;*/
     /*color: #337ab7;*/
     /*#61DAFB*/
   }
   .section-one-text-link{
-    color: #61DAFB;
+    color: #d50000;
   }
   .section-one-text-link:hover{
     text-decoration: none;
     color: grey;
+  }
+  .section-one-text-h3{
+    font-family:helvetica, arial;
+    font-size: 30px;
+    font-weight: 700;
   }
 
 
@@ -150,6 +156,11 @@ header{
 .panel-primary{
   border-color:#717183;
 }
+.panel-primary:hover{
+  /*background:#717183;*/
+  /*opacity: 0.5;*/
+}
+
 
 .panel-body{
   /*font-size: 45px;*/
