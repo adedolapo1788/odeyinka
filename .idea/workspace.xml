@@ -112,6 +112,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Phone</find>
+      <find>placeholder=&quot;&quot;</find>
+      <find>value=&quot;&quot;</find>
+      <find>required</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
