@@ -25,12 +25,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="341" />
+          <entry key="html" value="368" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="341" />
+          <entry key="HTML" value="368" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -70,10 +70,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/delegationlead.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="230" column="74" selection-start-line="230" selection-start-column="74" selection-end-line="230" selection-end-column="74" />
+            <state relative-caret-position="114">
+              <caret line="242" column="40" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="40" />
               <folding>
+                <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#11699#11706#1" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,12 +200,12 @@
       <updated>1541515749293</updated>
       <workItem from="1541515754352" duration="143000" />
       <workItem from="1549510365224" duration="4479000" />
-      <workItem from="1549626024679" duration="1022000" />
+      <workItem from="1549626024679" duration="1283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5644000" />
+    <option name="totallyTimeSpent" value="5905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -282,10 +284,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/delegationlead.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="230" column="74" selection-start-line="230" selection-start-column="74" selection-end-line="230" selection-end-column="74" />
+        <state relative-caret-position="114">
+          <caret line="242" column="40" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="40" />
           <folding>
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#11699#11706#1" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
