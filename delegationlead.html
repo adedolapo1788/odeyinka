@@ -87,7 +87,7 @@
         <input name="NAME" type="text" class="form-control" id="name" placeholder="Please enter your name">
       </div>
       <div class="form-group">
-        <label for="email_address">Email address</label>
+          <label for="email_address">EMAIL ADDRESS</label>
         <input name="E-MAIL ADDRESS" type="email" class="form-control" id="email_address" aria-describedby="emailHelp" placeholder="Please enter your email address">
         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
@@ -149,64 +149,64 @@
                   </div>
                   <div class="col-md-6 mb-3">
                     <label for="lastName">INITIALS</label>
-                    <input type="text" class="form-control" id="initials" required="true">
+                    <input type="text" class="form-control" id="initials" name="INITIALS" required="true">
                   </div>
                 </div>
                   <div class="mb-3">
                   <div class="row">
-                    <label for="firstName">POSITION </label>
-                    <input type="text" class="form-control" id="Position" required="true">
+                    <label for="firstName">POSITION</label>
+                    <input type="text" class="form-control" id="Position" name="POSITION" required="true">
                   </div>
                 </div>
                   <div class="mb-3">
                   <div class="row">
-                    <label for="firstName">DEPARTMENT/UNIT </label>
-                    <input type="text" class="form-control" id="Department" required="true">
+                    <label for="firstName">DEPARTMENT/UNIT</label>
+                    <input type="text" class="form-control" id="Department" name="DEPARTMENT/UNIT" required="true">
                   </div>
                 </div>
                   <div class="mb-3">
                   <div class="row">
-                    <label for="address_one">Address1 </label>
-                    <input type="text" class="form-control" id="address_one" required="true">
+                    <label for="address_one">ADDRESS 1</label>
+                    <input type="text" class="form-control" id="address_one" name="ADDRESS 1" required="true">
                   </div>
                 </div>
                 <div class="mb-3">
                   <div class="row">
-                    <label for="address_two">Address2 </label>
-                    <input type="text" class="form-control" id="address_two" required="true">
+                    <label for="address_two">ADDRESS 2 </label>
+                    <input type="text" class="form-control" id="address_two" name="ADDRESS 2" required="true">
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-md-4 mb-3">
                     <label for="firstName">ZIP CODE</label>
-                    <input type="text" class="form-control" id="zip code" required="true">
+                    <input type="text" class="form-control" id="zip code" name="ZIP CODE" required="true">
                   </div>
                   <div class="col-md-4 mb-3">
                     <label for="lastName">TOWN</label>
-                    <input type="text" class="form-control" id="town" required="true">
+                    <input type="text" class="form-control" id="town" name="TOWN" required="true">
                   </div>
                   <div class="col-md-4 mb-3">
                     <label for="lastName">COUNTRY</label>
-                    <input type="text" class="form-control" id="country" required="true">
+                    <input type="text" class="form-control" id="country" name="COUNTRY" required="true">
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-md-6 mb-3">
-                    <label for="firstName">Phone</label>
-                    <input type="text" class="form-control" id="firstName" required="true">
+                    <label for="firstName">PHONE</label>
+                    <input type="text" class="form-control" id="firstName" name="PHONE" required="true">
                   </div>
                   <div class="col-md-6 mb-3">
-                    <label for="lastName">Fax</label>
-                    <input type="text" class="form-control" id="lastName" required="true">
+                    <label for="lastName">FAX</label>
+                    <input type="text" class="form-control" id="lastName" name="FAX" required="true">
                   </div>
                 </div>
 
                 <div class="row">
                   <div class=" mb-3">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                      <label for="email">EMAIL</label>
+                    <input type="email" class="form-control"  name="EMAIL" id="email" placeholder="you@example.com" required>
                       <div class="invalid-feedback">
                         Please enter a valid email address.
                       </div>
@@ -215,22 +215,22 @@
 
                  <div class="row">
                   <div class=" mb-3">
-                    <label for="email">Tel</label>
-                    <input type="email" class="form-control" id="tel" >
+                    <label for="tel">TELEPHONE NUMBER</label>
+                    <input type="tel" class="form-control" id="tel" >
                   </div>
                  </div>
 
                  <p>MEMBER OF IACUC/AEC</p>
-        <label class="radio-inline">
-            <input type="radio" name="MEMBER OF IACUC/AEC">YES
-      </label>
-      <label class="radio-inline">
-           <input type="radio" name="MEMBER OF IACUC/AEC">NO
-        </label>
+         <label class="radio-inline">
+          <input type="radio" name="MEMBER OF IACUC/AEC" value="Yes">YES
+         </label>
+         <label class="radio-inline">
+           <input type="radio" name="MEMBER OF IACUC/AEC" value="No">NO
+         </label>
         <br>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="margin-top: 15px;">Submit</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form_submission" style="margin-top: 15px;">Submit</button>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="form_submission" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
