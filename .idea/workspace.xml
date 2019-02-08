@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a624178-e2a4-4e3c-9bbe-f2c9b64e014c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/delegationlead.html" beforeDir="false" afterPath="$PROJECT_DIR$/delegationlead.html" afterDir="false" />
-    </list>
+    <list default="true" id="4a624178-e2a4-4e3c-9bbe-f2c9b64e014c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,12 +23,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="390" />
+          <entry key="html" value="394" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="390" />
+          <entry key="HTML" value="394" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -70,8 +68,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/delegationlead.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="280" column="6" selection-start-line="280" selection-start-column="6" selection-end-line="280" selection-end-column="6" />
+            <state relative-caret-position="273">
+              <caret line="141" column="91" selection-start-line="141" selection-start-column="91" selection-end-line="141" selection-end-column="91" />
+              <caret line="147" column="90" selection-start-line="147" selection-start-column="90" selection-end-line="147" selection-end-column="90" />
+              <caret line="151" column="88" selection-start-line="151" selection-start-column="88" selection-end-line="151" selection-end-column="88" />
+              <caret line="157" column="88" selection-start-line="157" selection-start-column="88" selection-end-line="157" selection-end-column="88" />
+              <caret line="163" column="90" selection-start-line="163" selection-start-column="90" selection-end-line="163" selection-end-column="90" />
+              <caret line="169" column="91" selection-start-line="169" selection-start-column="91" selection-end-line="169" selection-end-column="91" />
+              <caret line="175" column="91" selection-start-line="175" selection-start-column="91" selection-end-line="175" selection-end-column="91" />
+              <caret line="182" column="88" selection-start-line="182" selection-start-column="88" selection-end-line="182" selection-end-column="88" />
+              <caret line="186" column="84" selection-start-line="186" selection-start-column="84" selection-end-line="186" selection-end-column="84" />
+              <caret line="190" column="87" selection-start-line="190" selection-start-column="87" selection-end-line="190" selection-end-column="87" />
+              <caret line="197" column="89" selection-start-line="197" selection-start-column="89" selection-end-line="197" selection-end-column="89" />
+              <caret line="201" column="88" selection-start-line="201" selection-start-column="88" selection-end-line="201" selection-end-column="88" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -94,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="531">
+              <caret line="383" selection-start-line="383" selection-end-line="383" />
             </state>
           </provider>
         </entry>
@@ -104,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/registrationTwo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
-              <caret line="191" column="33" lean-forward="true" selection-start-line="191" selection-start-column="33" selection-end-line="191" selection-end-column="33" />
+              <caret line="191" column="33" selection-start-line="191" selection-start-column="33" selection-end-line="191" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -132,9 +141,9 @@
       <list>
         <option value="$PROJECT_DIR$/../../ace-training-project/form.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/registration.html" />
         <option value="$PROJECT_DIR$/accommodation.html" />
         <option value="$PROJECT_DIR$/registrationTwo.html" />
+        <option value="$PROJECT_DIR$/registration.html" />
         <option value="$PROJECT_DIR$/delegationlead.html" />
       </list>
     </option>
@@ -201,12 +210,12 @@
       <updated>1541515749293</updated>
       <workItem from="1541515754352" duration="143000" />
       <workItem from="1549510365224" duration="4479000" />
-      <workItem from="1549626024679" duration="1878000" />
+      <workItem from="1549626024679" duration="2223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6500000" />
+    <option name="totallyTimeSpent" value="6845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -252,20 +261,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../c_three/membership.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/registrationTwo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="191" column="33" lean-forward="true" selection-start-line="191" selection-start-column="33" selection-end-line="191" selection-end-column="33" />
+          <caret line="191" column="33" selection-start-line="191" selection-start-column="33" selection-end-line="191" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -283,10 +285,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="383" selection-start-line="383" selection-end-line="383" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/delegationlead.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="280" column="6" selection-start-line="280" selection-start-column="6" selection-end-line="280" selection-end-column="6" />
+        <state relative-caret-position="273">
+          <caret line="141" column="91" selection-start-line="141" selection-start-column="91" selection-end-line="141" selection-end-column="91" />
+          <caret line="147" column="90" selection-start-line="147" selection-start-column="90" selection-end-line="147" selection-end-column="90" />
+          <caret line="151" column="88" selection-start-line="151" selection-start-column="88" selection-end-line="151" selection-end-column="88" />
+          <caret line="157" column="88" selection-start-line="157" selection-start-column="88" selection-end-line="157" selection-end-column="88" />
+          <caret line="163" column="90" selection-start-line="163" selection-start-column="90" selection-end-line="163" selection-end-column="90" />
+          <caret line="169" column="91" selection-start-line="169" selection-start-column="91" selection-end-line="169" selection-end-column="91" />
+          <caret line="175" column="91" selection-start-line="175" selection-start-column="91" selection-end-line="175" selection-end-column="91" />
+          <caret line="182" column="88" selection-start-line="182" selection-start-column="88" selection-end-line="182" selection-end-column="88" />
+          <caret line="186" column="84" selection-start-line="186" selection-start-column="84" selection-end-line="186" selection-end-column="84" />
+          <caret line="190" column="87" selection-start-line="190" selection-start-column="87" selection-end-line="190" selection-end-column="87" />
+          <caret line="197" column="89" selection-start-line="197" selection-start-column="89" selection-end-line="197" selection-end-column="89" />
+          <caret line="201" column="88" selection-start-line="201" selection-start-column="88" selection-end-line="201" selection-end-column="88" />
           <folding>
             <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#17;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
