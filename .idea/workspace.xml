@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a624178-e2a4-4e3c-9bbe-f2c9b64e014c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/delegationlead.html" beforeDir="false" afterPath="$PROJECT_DIR$/delegationlead.html" afterDir="false" />
-    </list>
+    <list default="true" id="4a624178-e2a4-4e3c-9bbe-f2c9b64e014c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,12 +23,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="566" />
+          <entry key="html" value="573" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="566" />
+          <entry key="HTML" value="573" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -70,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/delegationlead.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="122" column="158" selection-start-line="122" selection-start-column="158" selection-end-line="122" selection-end-column="158" />
+            <state relative-caret-position="91">
+              <caret line="126" column="63" selection-start-line="126" selection-start-column="63" selection-end-line="126" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -123,6 +121,7 @@
       <find>placeholder=&quot;&quot;</find>
       <find>value=&quot;&quot;</find>
       <find>required</find>
+      <find>checked</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,15 +201,15 @@
       <updated>1541515749293</updated>
       <workItem from="1541515754352" duration="143000" />
       <workItem from="1549510365224" duration="4479000" />
-      <workItem from="1549626024679" duration="3013000" />
+      <workItem from="1549626024679" duration="3258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7635000" />
+    <option name="totallyTimeSpent" value="7880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
@@ -286,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/delegationlead.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="122" column="158" selection-start-line="122" selection-start-column="158" selection-end-line="122" selection-end-column="158" />
+        <state relative-caret-position="91">
+          <caret line="126" column="63" selection-start-line="126" selection-start-column="63" selection-end-line="126" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
