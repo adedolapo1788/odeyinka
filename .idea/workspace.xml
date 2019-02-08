@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a624178-e2a4-4e3c-9bbe-f2c9b64e014c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/delegationlead.html" beforeDir="false" afterPath="$PROJECT_DIR$/delegationlead.html" afterDir="false" />
-    </list>
+    <list default="true" id="4a624178-e2a4-4e3c-9bbe-f2c9b64e014c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -70,7 +68,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/delegationlead.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="-175">
               <caret line="222" column="35" selection-start-line="222" selection-start-column="35" selection-end-line="222" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -203,12 +201,12 @@
       <updated>1541515749293</updated>
       <workItem from="1541515754352" duration="143000" />
       <workItem from="1549510365224" duration="4479000" />
-      <workItem from="1549626024679" duration="4643000" />
+      <workItem from="1549626024679" duration="4924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9265000" />
+    <option name="totallyTimeSpent" value="9546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -287,7 +285,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/delegationlead.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="-175">
           <caret line="222" column="35" selection-start-line="222" selection-start-column="35" selection-end-line="222" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
