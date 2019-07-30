@@ -116,13 +116,13 @@ header{
   .section-one-text-strong{
     font-weight: 700;
     font-size: 35px;
-    color: #d50000;
+    color: darkred;
     /*font-style: helvetica;*/
     /*color: #337ab7;*/
     /*#61DAFB*/
   }
   .section-one-text-link{
-    color: #d50000;
+    color: darkred;
   }
   .section-one-text-link:hover{
     text-decoration: none;
@@ -309,7 +309,7 @@ header{
      }
 
      .section-one{
-    background-image: url("img/ObuduCattleRance101.jpg");
+    background-image: url("img/cocoa-house.jpg");
   
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */

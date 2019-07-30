@@ -143,23 +143,25 @@
   <table>
   <tr>
     <th><input type="checkbox" class="form-check-input" id="exampleCheck1"> BANK TRANSFER</th>
-    <th colspan="4">All charges to be borne by participant, to the order of the ACURET.ORG.
+    <th colspan="5">All charges to be borne by participant, to the order of the ACURET.ORG.
 </th>
     
   </tr>
   <tr>
-    <td>Account Holder:</td>
+    <td><b>Account Holder:</b></td>
     <td>ACURET.ORG</td>
-    <td>Bank Name:</td>
-    <td>GTBank Plc,Ile-Ife</td>
-    <td>BIC/Swift GTBINGLA</td>
+    <td><b>Bank Name:</b></td>
+    <td>GTBank Plc, OAU Br. Ile-Ife</td>
+    <td><b>BIC/Swift:</b></td>
+    <td>GTBINGLA</td>
   </tr>
   <tr>
-    <td>Account # ($):</td>
+    <td><b>Account # ($-USD):</b></td>
     <td>0213220593</td>
-    <td>Sort Code:</td>
+    <td><b>Sort Code:</b></td>
     <td>058294923</td>
-    <td>Account # (N):</td>
+    <td><b>Account # (N-Naira):</b></td>
+    <td>0213218066</td>
   </tr>
 </table>
 </div>
@@ -270,7 +272,7 @@
             <div class="row">
               <div class="mb-3">
                 <label for="firstName">UNIVERSITY/INSTITUTION </label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="firstName" name="UNIVERSITY/INSTITUTION" placeholder="" value="" required="">
               </div>
             </div>
             <div>
@@ -278,64 +280,64 @@
             </div>
             <div class="mb-3">
               <div class="row">
-                <label for="firstName">Contact Person: </label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <label for="contact_person">Contact Person: </label>
+                <input type="text" class="form-control" id="contact_person" name="Contact Person:" placeholder="" value="" required="">
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="firstName">Position</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <label for="position">Position</label>
+                <input type="text" class="form-control" id="position" name="Position" placeholder="" value="" required="">
               </div>
               <div class="col-md-6 mb-3">
-                <label for="lastName">Department</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <label for="department">Department</label>
+                <input type="text" class="form-control" id="department" name="Department" placeholder="" value="" required="">
               </div>
             </div>
             <div class="mb-3">
               <div class="row">
-                <label for="firstName">Address: </label>
-                <input name="address" type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <label for="address">Address: </label>
+                <input name="Address" type="text" class="form-control" id="address"  placeholder="" value="" required="">
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-4 mb-3">
-                <label for="firstName">ZIP CODE</label>
-                <input name="firstName" type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <label for="zip_code">ZIP CODE</label>
+                <input name="ZIP CODE" type="text" class="form-control" id="zip_code" placeholder="" value="" required="">
               </div>
               <div class="col-md-4 mb-3">
-                <label for="lastName">City</label>
-                <input name="city" type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <label for="city">City</label>
+                <input name="City" type="text" class="form-control" id="city" placeholder="" value="" required="">
               </div>
               <div class="col-md-4 mb-3">
-                <label for="lastName">Country</label>
-                <input name="COUNTRY" type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <label for="country">Country</label>
+                <input name="COUNTRY" type="text" class="form-control" id="country" placeholder="" value="" required="">
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="firstName">Phone</label>
-                <input name="Phone" type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <label for="phone">Phone</label>
+                <input name="Phone" type="text" class="form-control" id="phone" placeholder="" value="" required="">
               </div>
               <div class="col-md-6 mb-3">
-                <label for="lastName">Fax</label>
-                <input name="Fax" type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <label for="fax">Fax</label>
+                <input name="Fax" type="text" class="form-control" id="fax" placeholder="" value="" required="">
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-6 mb-3">
               <label for="email">Email <span class="text-muted">(Optional)</span></label>
-              <input name="_replyto" type="email" class="form-control" id="email" placeholder="you@example.com">
+              <input name="Email" type="email" class="form-control" id="email" placeholder="you@example.com">
               <div class="invalid-feedback">
                 Please enter a valid email address.
               </div>
             </div>
             <div class="col-md-6 mb-3">
-                <label for="firstName">Purchase Order # or other reference: </label>
-                <input name="Purchase order" type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <label for="purchase_order">Purchase Order # or other reference: </label>
+                <input name="Purchase Order" type="text" class="form-control" id="purchase_order" placeholder="" value="" required="">
               </div>
             </div>
 
@@ -381,52 +383,7 @@ ACURET would like to contact you occasionally to keep you informed of future ACU
 <footer class="container-fluid">
   <div class="container">
     <div class="row container footer-section">
-      <div class="col-md-6 col-sm-6">
-        <h3 class="text-center">Programme and Sessions</h3>
-        <div>
-          <ul class="Programme-sessions">
-            <li>Introduction: Ethics and the IACUC</li>
-            <li>Creating a Proactive and Engaged IACUC</li>
-            <li>Responsible Officials and animal welfare</li>
-            <li>Facility management and Institutional Accreditation: Process and project</li>
-            <li>Training, Training, and more Training in animal welfare</li>
-            <li>Hazards in working with laboratory animals</li>
-            <li>The Protocol review process</li>
-            <li>Case Studies on Protocol Review and Site Visits/Inspections.</li>
-            <li>Non-compliance, reporting and management</li>
-          </ul>
-        </div> 
-        
-      </div>
-      <!-- <div class="col-md-4 col-sm-4">
-        <div>
-          <h3 class="text-center">Speakers</h3>
-          <div>
-            <ul class="Programme-speakers">
-              <li>Prof. Caled Kudi, DVM, PhD. Ahmadu Bello University, Zaria, Nigeria</li>
-              <li>Prof Addo Phyllis, DVM, PhD. University of Legon, Accra, Ghana</li>
-              <li>Prof. Francis A. Fakoya, MBChB, PhD. ACURET.ORG, Newcastle upon Tyne, UK</li>
-              <li>Prof. IB Cadmus, PhD. University of Ibadan, Ibadan, Nigeria</li>
-              <li>Dr. Abdussamad M. Abdussamad, DVM, PhD. Bayero University, Kano, Nigeria </li>
-              <li>Prof. Dr. Brigitte Vollmar, PhD., DFG, Bonn, Germany</li>
-            </ul>
-          </div>
-        </div>
 
-      </div> -->
-      <div class="col-md-6 col-sm-6">
-        <div  class="footer-section-3">
-         <p>Emails: <a href="#">info@acuret.org</a></p>
-          <p><a href="#">acuretlearning@gmail.com</a></p>
-          <p><a href="#">acuret.org@gmail.org</a></p>
-          <p>Tel: +234-809 444 4510</p>
-          <p>SEND MESSAGE</p>
-          <p>FULL NAMES</p>
-          <p>EMAIL ADDRESS</p>
-          <p>PHONE # (INCLUDING YOUR COUNTRY CODE)</p>
-        </div>
-
-      </div>
     </div>
     <div class="text-center" style="font-size: 15px; margin-bottom: 5px; color: #b0bec5;"><p><span>Copyright &copy; 2018. All rights reserved.</span></p></div>
 
