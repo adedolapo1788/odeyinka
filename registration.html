@@ -292,39 +292,39 @@
 <!-- --------------------------------------------------REGISTRATION ------------------------------------------------------------------ -->
 
 <div class="container form-content">
-  <h3 class="generic" style="padding: 4px;">Billing Information</h3>
+  <h3 class="generic" style="padding: 4px;">Payment Notification Form</h3>
   <form class="needs-validation text-center" style="margin-top: 50px; padding: 20px;" novalidate="" method="POST" action="https://formspree.io/acuretlearning@gmail.com">
-            <div class="row">
-              <div class="mb-3">
-                <label for="firstName">UNIVERSITY/INSTITUTION </label>
+      <div class="row">
+          <div class="mb-3">
+                <label for="firstName">Name of University/Institution</label>
                 <input type="text" class="form-control" id="firstName" name="UNIVERSITY/INSTITUTION" placeholder="" value="" required="">
+          </div>
+      </div>
+      <div class="row">
+          <div class="mb-3">
+              <label for="contact_person">Full Name of Contact </label>
+              <input type="text" class="form-control" id="contact_person" name="Full Name of Contact" placeholder="" value="" required="">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 mb-3">
+              <label for="phone">Phone</label>
+              <input name="Phone" type="text" class="form-control" id="phone" placeholder="" value="" required="">
+          </div>
+          <div class="col-md-6 mb-3">
+              <label for="email">Email</label>
+              <input name="Email" type="email" class="form-control" id="email" placeholder="you@example.com" required>
+              <div class="invalid-feedback">
+                  Please enter a valid email address.
               </div>
-            </div>
-            <div>
-              <p style="margin-bottom: 25px;"><u>IF DIFFERENT FROM ABOVE:</u></p>
-            </div>
-            <div class="mb-3">
-              <div class="row">
-                <label for="contact_person">Contact Person: </label>
-                <input type="text" class="form-control" id="contact_person" name="Contact Person:" placeholder="" value="" required="">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="position">Position</label>
-                <input type="text" class="form-control" id="position" name="Position" placeholder="" value="" required="">
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="department">Department</label>
-                <input type="text" class="form-control" id="department" name="Department" placeholder="" value="" required="">
-              </div>
-            </div>
-            <div class="mb-3">
-              <div class="row">
-                <label for="address">Address: </label>
-                <input name="Address" type="text" class="form-control" id="address"  placeholder="" value="" required="">
-              </div>
-            </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="mb-3">
+              <label for="contact_person">Bank Payment Reference</label>
+              <input type="text" class="form-control" id="contact_person" name="Full Name of Contact" placeholder="" value="" required="">
+          </div>
+      </div>
 
             <div class="row">
               <div class="col-md-4 mb-3">
@@ -341,25 +341,10 @@
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="phone">Phone</label>
-                <input name="Phone" type="text" class="form-control" id="phone" placeholder="" value="" required="">
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="fax">Fax</label>
-                <input name="Fax" type="text" class="form-control" id="fax" placeholder="" value="" required="">
-              </div>
-            </div>
+
 
             <div class="row">
-              <div class="col-md-6 mb-3">
-              <label for="email">Email <span class="text-muted">(Optional)</span></label>
-              <input name="Email" type="email" class="form-control" id="email" placeholder="you@example.com">
-              <div class="invalid-feedback">
-                Please enter a valid email address.
-              </div>
-            </div>
+
             <div class="col-md-6 mb-3">
                 <label for="purchase_order">Purchase Order # or other reference: </label>
                 <input name="Purchase Order" type="text" class="form-control" id="purchase_order" placeholder="" value="" required="">
