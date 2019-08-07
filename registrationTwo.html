@@ -94,7 +94,8 @@
 </div>
  <!-- -------------Form Begins Here--------------------------->
 <div id= "show_form" class=  "collapse container text-center form-content" id="collapseForm"style="margin-top: 35px;">
-    <form method="POST" action="https://formspree.io/acuretlearning@gmail.com">
+    <form method="POST" action="https://formspree.io/info@acuret.org">
+        <input type="hidden" name="_cc" value="acuret.org@gmail.com" />
         <p id="show_delegation" style="color: #d50000; font-size: 25px; margin-bottom: 10px;" align="center"><em></em></p>
 
    <div class="col-7">
@@ -170,7 +171,7 @@
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">Phone</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" name="Phone" required="">
+                <input type="tel" class="form-control" id="firstName" placeholder="" name="Phone" required="">
               </div>
               <div class="col-md-6 mb-3">
                 <label for="lastName">Fax</label>
@@ -190,8 +191,8 @@
 
              <div class="row">
               <div class=" mb-3">
-                <label for="email">Telephone</label>
-                <input type="email" class="form-control" id="tel" placeholder="" name="Tel">
+                <label for="tel">Telephone</label>
+                <input type="tel" class="form-control" id="tel" placeholder="" name="Telephone Number">
               </div>
              </div>
 
@@ -229,21 +230,25 @@
    lead.onclick = function(){
     showSelection.innerHTML = "LEAD DELEGATION";
     showForm.style.display = "block";
+    $('#show_delegation').append('<input class="form-control" type="hidden" name="Lead Delegation 1">');
 
    }
     two.onclick = function(){
     showSelection.innerHTML = "DELEGATION TWO";
      showForm.style.display = "block";
+     $('#show_delegation').append('<input class="form-control" type="hidden" name="Lead Delegation 2">');
 
    }
     three.onclick = function(){
     showSelection.innerHTML = "DELEGATION THREE";
      showForm.style.display = "block";
+        $('#show_delegation').append('<input class="form-control" type="hidden" name="Lead Delegation 3">');
 
    }
    non.onclick = function(){
     showSelection.innerHTML = "NON-DELEGATION"
     showForm.style.display = "block"
+       $('#show_delegation').append('<input class="form-control" type="hidden" name="Non-Delegation">');
    }
 
  </script>
