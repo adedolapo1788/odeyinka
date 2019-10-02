@@ -121,6 +121,19 @@ header{
     /*color: #337ab7;*/
     /*#61DAFB*/
   }
+ .section-one-text-strong-blink{
+     font-weight: 700;
+     font-size: 35px;
+     color: darkred;
+     animation: section-one-text-strong-blink 0.6s linear infinite;
+ }
+     @keyframes section-one-text-strong-blink {
+     50% { opacity: 0; }
+ }
+     /*font-style: helvetica;*/
+     /*color: #337ab7;*/
+     /*#61DAFB*/
+
   .section-one-text-link{
     color: darkred;
   }
